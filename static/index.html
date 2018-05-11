@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>ML Studio Authentication Proxy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/w3-theme-blue.css">
+        <link rel="stylesheet" href="./css/w3.css">
+        <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+        <script src="script/index.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="w3-bar w3-theme-d2">
+            <!--<a class="w3-bar-item w3-button" href="#"><i class="fa fa-bars"></i></a>-->
+            <div class="w3-bar-item w3-left w3-half w3-xlarge"><i class="fab fa-microsoft"></i> &nbsp; ML Studio Authentication Proxy</div>
+            <div class="w3-bar-item w3-right w3-half"><i class="fa fa-user"></i> &nbsp; <span id="username"></span></div>
+        </div>
+
+        <div class="w3-padding"></div>
+        <div class="w3-margin-top">
+            <div style="max-width:800px; margin:auto">
+                <div class="w3-container w3-theme-d2">
+                    <h3>Authentication information</h3>
+                </div>
+                <div class="w3-container w3-card-4 w3-white">
+                    <p>
+                        You are now authenticated. Use this information in the ML Studio Excel Addin:                       
+                    </p>
+                    <p>
+                        <label class="w3-text-grey">URL</label>
+                        <label id="url" class="w3-input" />
+                    </p>
+                    <p>
+                        <label class="w3-text-grey">API Key</label>
+                        <label id="apiKey" class="w3-input" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

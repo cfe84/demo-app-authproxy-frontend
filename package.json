@@ -1,0 +1,20 @@
+{
+  "name": "poc-mlstudio-auth-proxy-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://chfeval@vs-ssh.visualstudio.com:22/PreliminaryPudding/_ssh/poc-mlstudio-auth-proxy-frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.8.2",
+    "express": "^4.16.3",
+    "uuid": "^3.2.1"
+  }
+}
